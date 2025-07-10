@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Para alinear el contenido verticalmente */
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-info h3, .user-info h4 {
+    margin: 0;
+}
+
+.menu {
+    flex-grow: 1; /* Para ocupar el espacio disponible */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 15px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background: #34495e;
+}
+
+/* Estilos para el botón de cerrar sesión */
+.logout-button {
+    margin-top: 10px; /* Empuja el botón hacia abajo */
+    padding: 20px;
+    background-color: #e74c3c; /* Color de fondo rojo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c0392b; /* Color más oscuro al pasar el mouse */
+}
+
+main {
+    margin-left: 250px; /* Ancho del menú lateral */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.welcome-section {
+    text-align: center;
+}
+
+.welcome-section h1 {
+    margin-bottom: 20px;
+}
+
+.welcome-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
