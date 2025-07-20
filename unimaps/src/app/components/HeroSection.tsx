@@ -1,7 +1,8 @@
 export default function HeroSection() {
   return (
     <section style={{
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.74), rgba(17, 4, 4, 0.6)), url(/lugaresfont.jpg)`,
+      // backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.74), rgba(17, 4, 4, 0.6)), url(/lugaresfont.jpg)`,
+      backgroundImage: 'none',
       height: '70vh',
       display: 'flex',
       alignItems: 'center',
